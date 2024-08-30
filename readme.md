@@ -8,14 +8,12 @@ This project is a Task Manager API built using Node.js, Express, Sequelize (with
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
   - [Authentication](#authentication)
   - [Tasks](#tasks)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Swagger Documentation](#swagger-documentation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -37,19 +35,11 @@ Before you begin, ensure you have the following installed:
 - PostgreSQL
 - npm or yarn
 
-## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/task-manager-api.git
-   ```
-
-2. Install dependencies:
+ Clone the repository:
 
    ```bash
-   cd task-manager-api
-   npm install
+   git clone https://github.com/Jyotish-Kumar29/task_manager_api.git
    ```
 
 ## Configuration
@@ -108,10 +98,6 @@ Deploy your application to Heroku or any cloud service provider:
 1. Set up a PostgreSQL database.
 2. Configure environment variables on the deployment platform.
 3. Deploy the application using appropriate commands (e.g., Heroku CLI).
-
-### Swagger Documentation
-
-Swagger API documentation is available at `/api-docs`. It provides details about API endpoints, request/response formats, and authentication requirements.
 
 ### Contributing
 
